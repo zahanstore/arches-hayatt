@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className="h-full">
       <body className={`${inter.variable} ${cormorant.variable} h-full flex flex-col bg-white`}>
-        <header className="w-full pt-10 pb-6 flex flex-col items-center border-b border-gray-50">
+        <header className="w-full pt-10 pb-12 flex flex-col items-center border-b border-gray-50">
           <div className="flex flex-col items-center max-w-7xl w-full px-10">
             <img src="/apple-touch-icon.png" alt="Logo" className="h-10 w-auto mb-4" />
             <nav className="flex gap-10 mb-6">
